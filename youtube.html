@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="darkmode.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.png">
+      </div>
+    </header>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <a href="https://www.youtube.com/">
+          <img src="icons/home.svg">
+          <div>Home</div>
+        </a>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <!-- Video -->
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=x2XX3cNW4K0&list=RDx2XX3cNW4K0&start_radio=1">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.jpg">
+              <div class="video-time">3:49</div>
+            </a>
+          </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <a href="https://www.youtube.com/channel/UCIcXK1CI8URMIqNO_1cehiQ">
+                  <img class="profile-picture" src="channel-pictures/channel-1.png">
+                </a>
+              </div>
+              <div class="video-info">
+                <a href="https://www.youtube.com/watch?v=x2XX3cNW4K0&list=RDx2XX3cNW4K0&start_radio=1">
+                  <p class="video-title">
+                    Akdong Musician(AKMU) - GIVE LOVE M/V
+                  </p>
+                  <p class="video-author">
+                    AKMU
+                  </p>
+                  <p class="video-stats">
+                    120M views &#183; 11 years ago
+                  </p>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+              <div class="video-time">19:43</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@MrBeast">
+                <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                <p class="video-title">
+                  Anything You Can Fit In The Circle I’ll Pay For
+                </p>
+                <p class="video-author">
+                  MrBeast
+                </p>
+                <p class="video-stats">
+                  375M views &#183; 5 year ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=LSQ23bjBthA">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.jpg">
+              <div class="video-time">15:28</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@HazwaniHelmi">
+                <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=LSQ23bjBthA">
+                <p class="video-title">
+                  BOM DIGUGUR , HELIZA KE KUBUR!
+                </p>
+                <p class="video-author">
+                  The Helmis
+                </p>
+                <p class="video-stats">
+                  24K views &#183; 6 year ago
+                </p>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/094y1Z2wpJg?si=cFO1QFBcYMcNZX20">
+              <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+              <div class="video-time">22:09</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://youtube.com/@veritasium?si=H3QckRs2K5_R_BeC">
+                <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://youtu.be/094y1Z2wpJg?si=cFO1QFBcYMcNZX20">
+                <p class="video-title">
+                  The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                </p>
+                <p class="video-author">
+                  Veritasium
+                </p>
+                <p class="video-stats">
+                  18M views &#183; 4 months ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=vi_EFnsDXhI">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.jpg">
+              <div class="video-time">18:19</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@glowwe">
+                <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=vi_EFnsDXhI">
+                <p class="video-title">
+                  Sunscreen Untuk Kulit Kombinasi
+                </p>
+                <p class="video-author">
+                  glowwe
+                </p>
+                <p class="video-stats">
+                  32K views &#183; 6 years ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+              <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+              <div class="video-time">11:17</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@CSDojo">
+                <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                <p class="video-title">
+                  Kadane's Algorithm to Maximum Sum Subarray Problem
+                </p>
+                <p class="video-author">
+                  CS Dojo
+                </p>
+                <p class="video-stats">
+                  763K views &#183; 9 years ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+          </a>
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=syFZfO_wfMQ&list=RDsyFZfO_wfMQ&start_radio=1">
+              <img class="thumbnail" src="thumbnails/thumbnail-7.jpg">
+              <div class="video-time">4:01</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCb2HGwORFBo94DmRx4oLzow">
+                <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=syFZfO_wfMQ&list=RDsyFZfO_wfMQ&start_radio=1">
+                <p class="video-title">
+                  One Direction - Night Changes
+                </p>
+                <p class="video-author">
+                  One Direction
+                </p>
+                <p class="video-stats">
+                  1B views &#183; 10 years ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+          </a>
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=--zku6TB5NY&list=RD--zku6TB5NY&start_radio=1">
+              <img class="thumbnail" src="thumbnails/thumbnail-8.jpg">
+              <div class="video-time">4:57</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCzw-C7fNfs018R1FzIKnlaA">
+                <img class="profile-picture" src="channel-pictures/channel-8.png">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=--zku6TB5NY&list=RD--zku6TB5NY&start_radio=1">
+                <p class="video-title">
+                  BIGBANG - ‘LAST DANCE’ M/V
+                </p>
+                <p class="video-author">
+                  BIGBANG
+                </p>
+                <p class="video-stats">
+                  160M views &#183; 8 years ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+              <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+              <div class="video-time">8:21</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@markiplier">
+                <img class="profile-picture" src="channel-pictures/channel-9.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                <p class="video-title">
+                  Try Not To Laugh Challenge #9
+                </p>
+                <p class="video-author">
+                  Markiplier
+                </p>
+                <p class="video-stats">
+                  21M views &#183; 8 years ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+          </a>
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=WaODAEjiMO4">
+              <img class="thumbnail" src="thumbnails/thumbnail-10.jpg">
+              <div class="video-time">8:24</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@glowwe">
+                <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=WaODAEjiMO4">
+                <p class="video-title">
+                  Top 5 Toner Di Drugstore
+                </p>
+                <p class="video-author">
+                  glowwe
+                </p>
+                <p class="video-stats">
+                  41K views &#183; 3 years ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+          </a>
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+              <div class="video-time">14:21</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@mkbhd">
+                <img class="profile-picture" src="channel-pictures/channel-10.jpeg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+                <p class="video-author">
+                  Marques Brownlee
+                </p>
+                <p class="video-stats">
+                  43M views &#183; 4 years ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <!-- Dark mode -->
+    <button id="theme-switch">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+    </button>
+    
+  </body>
+</html>

@@ -1,0 +1,34 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  padding-bottom: 40px;
+  background-color: var(--base-variant);
+}
+
+
+/* ===== Dark mode ===== */
+:root{
+  --base-color: white;
+  --base-variant: rgb(248, 248, 248);
+  --text-color: black;
+  --secondary-text: rgb(96, 96, 96);
+  --primary-color: rgb(218, 217, 217);
+  --accent-color: #a4a5b8;
+}
+.darkmode{
+  --base-color: rgb(198, 196, 196);
+  --base-variant: #353538;
+  --text-color: white;
+  --secondary-text: #a4a5b8;
+  --primary-color: #3f4353;
+  --accent-color: rgb(198, 196, 196);
+}
+
